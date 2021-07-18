@@ -26,13 +26,15 @@ font-family:'Festive',cursive;
   #text #d{
     color:green;
   }
+  .w{
+  color:white;
+  } 
 </style>
 <h1 class="font-family">How are you</h1>
 <p class="font-family red-text font-size">Vyshnavi</p>
 <form action="https://sivajaswanth.github.io/project.html">
 <p id="down"><input class="cur" type="text" placeholder="type the text"></p>  
 <a class="a" href="#down">down the keyboard</a>
-</form>
 <form method="post" action="https://sivajaswanth.github.io/another.html" enctype="multipart/form-data">
 <div>
     <label for="file">Choose a file</label>
@@ -40,19 +42,20 @@ font-family:'Festive',cursive;
   </div>
   <div>
     <button>Send the file</button>
-  </div>
-</form>  
+  </div> 
 <select id="simple" name="simple">
   <option>Banana</option>
   <option selected>Cherry</option>
   <option>Lemon</option>
 </select>
 <button type="submit">submit</button>
+</form>
 <form action="https://sivajaswanth.github.io/project.html">
   <label for="sub">
     <input type="text" id="sub" name="sub" value="hai">
     </form>
     <form action="https://sivajaswanth.github.io/project.html">
-    <p id="d"><input id="text" type="text" placeholder="Type the text" name="text"></p>
+    <p id="d"><label for="text" class="w">Text here<input id="text" type="text" placeholder="Type the text" name="text"></label></p>
     <a href="#text">up the keyboard</a>
     <a href="#d">down the keyboard</a>
+  </form>
