@@ -33,9 +33,9 @@ font-family:'Festive',cursive;
 <h1 class="font-family">How are you</h1>
 <p class="font-family red-text font-size">Vyshnavi</p>
 <form method="Get" action="https://sivajaswanth.github.io/project.html" enctype="multipart/form-data">
-<p id="down"><input class="cur" type="text" placeholder="type the text"></p>  
+<p id="down"><input class="cur" type="text" placeholder="type the text" required></p>
+<p>*it will ask to type the text here because we want to know what text you have typed</p>
 <a class="a" href="#down">down the keyboard</a>
-<form method="Get" action="https://sivajaswanth.github.io/another.html">
 <div>
     <label for="file">Choose a file</label>
     <input type="file" id="file" name="myFile">
@@ -50,28 +50,38 @@ font-family:'Festive',cursive;
 </select>
 <button type="submit">submit</button>
     <p id="dev"></p>
-    <input id="ghj" type="text" placeholder="Type the text" value="How are you" name="ghj">
+    <input id="ghj" type="text" placeholder="Type the text" name="ghj" required>
     <a href="#ghj">up the keyboard</a>
     <a href="#dev">down the keyboard</a>
       <button type="submit">submit</button>
+  <div>
+      <label for="name">Username
+        <input type="username" id="name" name="name" required>
+      </label>
+      </div>
+  <div>
+      <label for="key">Password
+        <input type="password" id="key" name="key" required>
+      </label>
+      </div>
       <div>
       <label for="email">Your mail
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="email" required>
       </label>
       </div>
       <div>
       <label for="url">Your url
-        <input type="url" id="url" name="url">
+        <input type="url" id="url" name="url" required>
       </label>
       </div>
       <div>
       <label for="age">Age
-      <input type="number" id="age" name="age" min="14">
+      <input type="number" id="age" name="age" min="14" required>
       </label>
       </div>
       <div>
       <label for="date">Date of birth
-        <input type="date" id="date" name="date" min="01-02-2005">
+        <input type="date" id="date" name="date" min="01-02-2005" required>
       </label>
       </div>
       <div>
