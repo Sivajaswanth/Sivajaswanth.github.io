@@ -26,10 +26,21 @@ font-family:'Festive',cursive;
 </style>
 <h1 class="font-family">How are you</h1>
 <form method="Get" action="https://sivajaswanth.github.io/project.html" enctype="multipart/form-data">
-<p id="down"><input class="cur" type="text" placeholder="type the text" required></p>
+
+  <div>
+ 
+    <label for="cur-text">
+  <input class="cur" type="text" placeholder="type the text" id="cur-text" name="cur-text" required>
+ </label>
+  
+ <p id="down"></p>
+    
 <p>*it will ask to type the text here because we want to know what text you have typed</p>
-<a class="a" href="#down">down the keyboard</a>
-<div>
+  <a href="#cur-text">Up the keyboard</a>
+  <a class="a" href="#down">down the keyboard</a> 
+  </div>
+  
+  <div>
     <label for="file">Choose a file</label>
     <input type="file" id="file" name="myFile">
   </div>
@@ -41,40 +52,53 @@ font-family:'Festive',cursive;
 </select>
 
   <div>
-      <label for="name">Username
-        <input type="username" placeholder="User name" id="name" name="name" required>
+      <label for="u-name">Username
+        <input type="username" placeholder="User name" id="u-name" name="u-name" required>
       </label>
       </div>
   
   <div>
-      <label for="key">Password
-        <input type="password" placeholder="Password" id="key" name="key" min="4" max="6" required>
+      <label for="e">Password
+        <input type="password" placeholder="Password" id="e" name="e" min="4" max="6" required>
       </label>
       </div>
   
       <div>
-      <label for="email">Your mail
-        <input type="email" placeholder="Your email" id="email" name="email" required>
+        
+      <label for="a">Your mail
+        <input type="email" placeholder="Your email" id="a" name="a" required>
       </label>
+        
       </div>
   
       <div>
-      <label for="url">Your url
-        <input type="url" placeholder="url" id="url" name="url" required>
+        
+      <label for="r">Your url
+        <input type="url" placeholder="url" id="r" name="r" required>
       </label>
         <p> It will ask to fill the url you have</p>
       </div>
   
       <div>
-      <label for="age">Age
-      <input type="number" placeholder="Your age" id="age" name="age" min="14" required>
+      <label for="g">Age
+      <input type="number" placeholder="Your age" id="g" name="g" min="14" required>
       </label>
       </div>
   
+  <div>
+    
+    <label for="tsa"> Your Mobile number
+     <input type="tel" placeholder="mobile number" id="tsa" name="tsa">
+    </label>
+  
+  </div>
+  
       <div>
-      <label for="date">Date of birth
-        <input type="date" id="date" name="date" min="01-02-2005" required>
+      
+        <label for="t">Date of birth
+        <input type="t" id="date" name="t" min="1947-01-01" required>
       </label>
+        
       </div>
   
   <div>
