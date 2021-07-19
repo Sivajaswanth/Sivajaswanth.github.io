@@ -36,7 +36,7 @@ font-family:'Festive',cursive;
  <p id="down"></p>
     
 <p>*it will ask to type the text here because we want to know what text you have typed</p>
-  <a href="#cur-text">Up the keyboard</a>
+  <a class="a" href="#cur-text">Up the keyboard</a>
   <a class="a" href="#down">down the keyboard</a> 
   </div>
   
@@ -53,7 +53,7 @@ font-family:'Festive',cursive;
 
   <div>
       <label for="u-name">Username
-        <input type="username" placeholder="User name" id="u-name" name="u-name" required>
+        <input type="username" placeholder="User name" id="u-name" name="u-name" min="3" max="10" required>
       </label>
       </div>
   
@@ -88,7 +88,7 @@ font-family:'Festive',cursive;
   <div>
     
     <label for="tsa"> Your Mobile number
-     <input type="tel" placeholder="mobile number" id="tsa" name="tsa">
+     <input type="tel" placeholder="mobile number" id="tsa" name="tsa" min="10" max="11" required>
     </label>
   
   </div>
@@ -96,7 +96,7 @@ font-family:'Festive',cursive;
       <div>
       
         <label for="t">Date of birth
-        <input type="t" id="date" name="t" min="1947-01-01" required>
+        <input type="t" id="date" name="t" min="01-01-1947" required>
       </label>
         
       </div>
