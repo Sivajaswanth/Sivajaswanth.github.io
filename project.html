@@ -41,15 +41,12 @@ font-family:'Festive',cursive;
   
 <h1 class="font-family">How are you</h1>
 <form method="Get" action="https://sivajaswanth.github.io/project.html" enctype="multipart/form-data">
-
-  <div>
- 
-    <label for="cur-text">
-  <input class="cur" type="text" placeholder="type the text" id="cur-text" name="cur-text" required>
- </label>
   
- <p id="down"></p>
-    
+  <div>
+   <label for="cur-text">
+  <input class="cur" type="text" placeholder="type the text" id="cur-text" name="cur-text" minlength="3" maxlength="20" required>
+ </label> 
+ <p id="down"></p>    
 <p>*it will ask to type the text here because we want to know what text you have typed</p>
   <a class="a" href="#cur-text">Up the keyboard</a>
   <a class="a" href="#down">down the keyboard</a> 
@@ -65,6 +62,12 @@ font-family:'Festive',cursive;
   <option selected>Cherry</option>
   <option>Lemon</option>
 </select>
+  
+  <div>
+<label for="fir">Your first name
+   <input type="text" placeholder="your first name" id="fir" name="fir" maxlength="1" required>
+    </label>
+  </div>
 
   <div>
       <label for="u-name">Username
