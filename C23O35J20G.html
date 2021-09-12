@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<head>
+  <title>hey</title>
+  <style>
+    body{
+    background-color:lightblue;
+      padding:30px;
+    }
+    
+  </style>
+  <script>
+  function checkPassword() {
+    var password = document.getElementById("passwordBox");
+    var passwordText = password.value;
+    if(passwordText == "1358") {
+      alert("Your password is correct");
+    return true;   
+    }
+    alert("Access denied!");
+    return false;
+    }
+  </script>
+</head>
+<body>
+  
+  <p style="font-size: 30pt;">The code guy</p>
+  <p>Please enter the password to view this website.</p>
+  <p>Password:<input id="passwordBox" type="password" minlength=2 maxlength=8 required></p>
+    <a href="https://Sivajaswanth.github.io" onclick="return checkPassword();">
+    Next
+  </a>
+</body>
+</html>
