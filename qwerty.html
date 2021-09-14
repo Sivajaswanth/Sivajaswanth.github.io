@@ -44,29 +44,8 @@ DOCTYPE html>
 
   
   
-  <script>
-
-  function checktext-c() {
-
-    var text = document.getElementById("text-tBox");
-
-    var u-Text = text.value;
-
-    if(u-Text == "Qwerty") {
-
-      alert("Your password is correct");
-
-    return true;   
-
-    }
-
-    alert("Access denied! Incorrect password!");
-
-    return false;
-
-    }
-
-  </script>
+  
+    
 </head>
 
 <body>
@@ -78,14 +57,14 @@ DOCTYPE html>
   <p>Please enter the password to view this website.</p>
 
   <p>text:<input id="textBox" type="text" minlength=2 maxlength=8 required></p>
-<p>text-1:<input id="text-tBox"type="text"></p>
+<p>text-1:<input id="textBox"type="text" required></p>
   <ul>
 
   <li>Sometimes you can type any password to continue</li>
 
   </ul>
 
-    <a href="https://Sivajaswanth.github.io" onclick="return checktext-c();">
+    <a href="https://Sivajaswanth.github.io" onclick="return checktext();">
 
     Click here to submit 
 
@@ -95,11 +74,8 @@ DOCTYPE html>
 
     <br> 
 
-    <a href="https://Sivajaswanth.github.io/project.html" onclick="return checktext-c();">
-<a href="https://Sivajaswanth.github.io/project.html">None</a>
-    Click here to submit 
-
-  </a>project
+    
+  
 
   </form>
 
