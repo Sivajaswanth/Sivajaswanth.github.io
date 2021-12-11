@@ -20,6 +20,34 @@
     return false;
     }
   </script>
+ 
+  <script>
+
+  function checkPassword1() {
+
+    var password = document.getElementById("passwordBox1");
+
+    var passwordText = password.value;
+
+    if(passwordText == "The code guy") {
+
+      alert("Your password is 1358");
+
+    return true;   
+
+    }
+
+    alert("Access denied!");
+
+    return false;
+
+    }
+
+
+
+
+  </script>
+
 </head>
 <body>
   <form action="https://Sivajaswanth.github.io/C23O35J20G.html">
@@ -29,6 +57,15 @@
     <a href="https://Sivajaswanth.github.io/mem.html" onclick="return checkPassword();">
     Next
   </a>
+    
+    <p>Clue:<input id="passwordBox1" type="password" minlength=2 maxlength=8 required></p>
+
+    <a href="https://Sivajaswanth.github.io/C23O35J20G.html" onclick="return checkPassword1();">
+
+    Next
+
+  </a>
+
    <input type="reset" value="clear all">
     <br>
   <a href="https://Sivajaswanth.github.io">Reload</a>
