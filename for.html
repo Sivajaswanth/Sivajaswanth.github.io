@@ -24,14 +24,42 @@
 
     }
   </script>
+  
+  <script>
+
+  function checkPassword() {
+
+    var password = document.getElementById("passwordBox");
+
+    var passwordText = password.value;
+
+    if(passwordText == "Me") {
+
+      alert("OK TRUE");
+
+    return true;   
+
+    }
+
+    alert("You are not the owner and you are not eligeble to use!");
+
+    return false;
+
+    }
+  </script>
   </head>
 <body>
+  <p>Clue:<input id="passwordBox" type="password" minlength=2 maxlength=8 required></p>
+
+    <a href="#k" onclick="return checkPassword();">
+
 <p>Clue:<input id="passwordBox1" type="password" minlength=2 maxlength=8 required></p>
 
-    <a href="https://Sivajaswanth.github.io/C23O35J20G.html" onclick="return checkPassword1();">
+    <a id="k" href="https://Sivajaswanth.github.io/C23O35J20G.html" onclick="return checkPassword1();">
 
     Next
 
   </a>
+  
 </body>
 </html>
